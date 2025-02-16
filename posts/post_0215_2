@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Dimensional Wave Equation</title>
+    <link rel="stylesheet" href="../style.css">
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Two-Dimensional Wave Equation</h1>
+    </header>
+    
+    <main>
+        <h2>Introduction</h2>
+        <p>The two-dimensional wave equation extends the one-dimensional wave equation to describe wave propagation in a plane. It is widely used in acoustics, optics, and fluid dynamics.</p>
+        
+        <h2>Mathematical Formulation</h2>
+        <p>The two-dimensional wave equation is given by:</p>
+        <p>\[ \frac{\partial^2 u}{\partial t^2} = c^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} \right) \]</p>
+        <p>where:</p>
+        <ul>
+            <li>\( u(x,y,t) \) represents the wave function at position \( (x,y) \) and time \( t \).</li>
+            <li>\( c \) is the wave speed.</li>
+            <li>\( \frac{\partial^2}{\partial t^2} \), \( \frac{\partial^2}{\partial x^2} \), and \( \frac{\partial^2}{\partial y^2} \) are second-order partial derivatives.</li>
+        </ul>
+        
+        <h2>General Solution</h2>
+        <p>The general solution depends on boundary conditions and can be expressed using separation of variables:</p>
+        <p>\[ u(x,y,t) = X(x) Y(y) T(t) \]</p>
+        <p>which leads to a set of ordinary differential equations for \( X(x) \), \( Y(y) \), and \( T(t) \).</p>
+        
+        <h2>Conclusion</h2>
+        <p>The two-dimensional wave equation is crucial for understanding wave dynamics in multiple fields such as sound propagation, fluid waves, and even quantum mechanics.</p>
+        
+        <a href="../index.html">Back to Home</a>
+    </main>
+    
+    <footer>
+        <p>© 2024 My Blog</p>
+    </footer>
+</body>
+</html>
